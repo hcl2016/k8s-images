@@ -1,1 +1,1 @@
-FROM gcr.io/google-containers/cluster-proportional-autoscaler-amd64:1.7.1
+FROM gcr.io/google-containers/kube-apiserver:v1.17.9
