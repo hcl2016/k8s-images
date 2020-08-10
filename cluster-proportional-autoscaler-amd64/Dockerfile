@@ -1,1 +1,1 @@
-FROM gcr.io/google-containers/kube-proxy:v1.17.9
+FROM k8s.gcr.io/metrics-server/metrics-server:v0.3.7
