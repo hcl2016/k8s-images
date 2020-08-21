@@ -1,1 +1,3 @@
-FROM k8s.gcr.io/metrics-server/metrics-server:v0.3.7
+FROM gcr.io/google-containers/kube-controller-manager:v1.17.9
+RUN apt-get undate \
+    && apt install -y ceph-common
