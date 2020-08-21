@@ -1,2 +1,2 @@
 FROM gcr.io/google-containers/kube-controller-manager:v1.17.9
-RUN apt-get update
+RUN apt-get update && apt-get install -y ceph-common
